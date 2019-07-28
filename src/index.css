@@ -10,3 +10,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    background-color: blue;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+
+
+
+
+
+/*this is the child*/
+.specBtn{
+   height: 50px;
+    width: 45px;
+    background-color: red;
+    margin: 4%;
+    border-radius: 7px;
+}
+
+
+
+
+/*this is the parent*/
+.number-btn{
+  /* display: flex;
+  flex-wrap: wrap;
+  width: 70%; */
+
+}
+
+/*this is the child*/
+.numBtn{
+    height: 50px;
+    width: 45px;
+    background-color: red;
+    margin: 4%;
+    border-radius: 7px;
+}
+
+
+
+
+.operator-btn{
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  width: 10%; */
+}
+
+/*this is the child*/
+.opsBtn{
+   height: 50px;
+    width: 45px;
+    background-color: red;
+    margin: 4%;
+    border-radius: 7px;
+}
+
+.logo{
+  padding: 2%;
+  border-radius: 5%;
+}
+
+
+
+/*display parent*/
+.displayParent{
+  display: flex;
+  justify-content: center;
+  
+}
+.display {
+  border: 2px solid black;
+  height: 70px;
+  width: 90%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}

@@ -1,18 +1,19 @@
-import React from "react";
+// import React from "react";
 
 import React, { useState } from 'react';
 
-import numberButton from './NumberButton'
+import NumberButton from './NumberButton'
 
-import data from "../../../data"
-import NumberButton from "./NumberButton";
-const numbers = data.numbers
+import data from "../../../data" 
+
+// import NumberButton from "./NumberButton";
+const numbers = data.numbers;
 
 
 //Import your array data to from the provided data file
 
 const Numbers = () => {
-  const [nums, setNums] = useState(numbers)
+  const [numberState, setNumberState] = useState(numbers);
   // STEP 2 - add the imported data to state
   return (
     <div>
@@ -26,3 +27,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default Numbers;
