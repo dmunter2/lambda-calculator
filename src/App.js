@@ -17,7 +17,9 @@ import Display from '../src/components/DisplayComponents/Display'
 import Logo from "./components/DisplayComponents/Logo";
 
 function App() {
-  const [value, setValue] = useState('0')
+  const [value, setValue] = useState('0');
+
+
   
 
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
@@ -32,7 +34,7 @@ function App() {
         <Logo />
       </div>
       <div className='displayParent'>
-        <Display />
+        <Display  value={value} />
       </div>
       <div className="App">
 
