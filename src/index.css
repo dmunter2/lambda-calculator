@@ -18,69 +18,77 @@ code {
     flex-direction: column;
     height: 500px;
     width: 350px;
-    background-color: blue;
+    background-color: #bb1333;
     padding: 1%;
     border-radius: 2%;
 }
 
 
+.operator-btn div{
+  display: flex;
+  flex-direction: column;
+}
 
+.opsBtn{
+  margin: 4%;
 
-
+}
 
 /*this is the child*/
-.specBtn{
+.specBtn, .numBtn, .opsBtn{
    height: 50px;
     width: 45px;
-    background-color: red;
+    background-color: #0c3c78;
     margin: 4%;
     border-radius: 7px;
+    color: white;
 }
+
 
 
 
 
 /*this is the parent*/
 .number-btn{
-  /* display: flex;
-  flex-wrap: wrap;
-  width: 70%; */
+  /* width: 60%; */
 
 }
 
-/*this is the child*/
-.numBtn{
-    height: 50px;
-    width: 45px;
-    background-color: red;
-    margin: 4%;
-    border-radius: 7px;
-}
 
 
 
-
-.operator-btn{
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: flex-end;
-  width: 10%; */
-}
-
-/*this is the child*/
-.opsBtn{
-   height: 50px;
-    width: 45px;
-    background-color: red;
-    margin: 4%;
-    border-radius: 7px;
-}
 
 .logo{
   padding: 2%;
   border-radius: 5%;
 }
+
+
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.both{
+  width: 70%;
+  margin-left: 4%;
+}
+.only1{
+  margin-right: 4%;
+  padding: 5%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,9 +99,14 @@ code {
   
 }
 .display {
-  border: 2px solid black;
+  border: 2px solid #55596d;
   height: 70px;
   width: 90%;
   border-radius: 15px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  background-color: white;
 }
+
+
+
+

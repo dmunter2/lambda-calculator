@@ -35,15 +35,23 @@ function App() {
         <Display />
       </div>
       <div className="App">
-        <div className = 'special-btn'>
-          <Specials />
+
+        <div className='both'>
+          <div className='special-btn'>
+            <Specials />
+          </div>
+          <div className='number-btn'>
+            <Numbers />
+          </div>
         </div>
-        <div className='operator-btn'>
-          <Operators />
+      
+
+        <div className='only1'>
+          <div className='operator-btn'>
+            <Operators />
+          </div>
         </div>
-        <div className='number-btn'>
-          <Numbers />
-        </div>
+       
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>
