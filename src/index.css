@@ -10,3 +10,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 350px;
+    background-color: #bb1333;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+
+.operator-btn div{
+  display: flex;
+  flex-direction: column;
+}
+
+.opsBtn{
+  margin: 4%;
+
+}
+
+/*this is the child*/
+.specBtn, .numBtn, .opsBtn{
+   height: 55px;
+    width: 55px;
+    background-color: #0c3c78;
+    margin: 4%;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+.specBtn{
+  background-color: #1a61b0;
+}
+
+.opsBtn{
+  background-color: #3ab5e5;
+  margin-bottom: 32%;
+}
+
+
+
+
+.logo{
+  padding: 2%;
+  border-radius: 5%;
+}
+
+
+
+.App{
+  display: flex;
+}
+
+.both{
+  width: 70%;
+  margin-left: 4%;
+}
+.only1{
+  margin-top: 2%;
+  margin-left: -3%;
+  /* padding: 5%; */
+}
+
+
+/*display parent*/
+.displayParent{
+  display: flex;
+  justify-content: center;
+  
+}
+.display {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid #55596d;
+  height: 70px;
+  color: white;
+  width: 90%;
+  border-radius: 30px;
+  margin-bottom: 2%;
+  background-color: #55596d;
+  font-size: 50px;
+  padding-right: 10px;
+}
+
+
+
+
+.numBtn:nth-child(10){
+  width: 53%;
+  border-radius: 25px;
+}
+
+
+
+
+
